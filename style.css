@@ -1,0 +1,72 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+.havana h2, h3 {
+  color: white;
+}
+
+.havana {
+  padding: 50px;
+  margin: 0;
+}
+
+.havana h1 {
+  color: white;
+  font-size: 80px;
+  background: 
+    linear-gradient(to bottom left, rgba(255, 255, 255, 0.36), rgba(252, 0, 0, 0.44)),
+    url(Havana-Home-12.jpg) no-repeat bottom center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.donate-area {
+  margin: 10px;
+  margin-left: 40px;
+}
+
+.donate-area h1 {
+  font-size: 50px;
+}
+
+.donate-area a {
+  color: #1cabe2;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+  max-width: 600px;
+
+}
+
+.unicef-logo {
+  display: inline-block;
+  background-image: url(unicef_for-every-child_EN.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 106px;
+  height: 56px;
+}
+
+footer .disclaimer {
+  color: white;
+  text-align: center;
+  font-size: 5px;
+  color: lightskyblue;
+}
